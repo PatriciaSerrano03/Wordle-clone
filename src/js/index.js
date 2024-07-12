@@ -9,6 +9,7 @@ const gameBoardElement = document.getElementById('game-board');
 const userWordFormElement = document.getElementById('user-word-form');
 
 let secretWord;
+let currentRow = 0;
 
 //Elegir la palabra del wordle
 const chooseSecretWord = () => {
